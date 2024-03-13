@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=IM+Fell+Double+Pica:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Parisienne&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: rgb(254, 246, 236);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(254, 246, 236);
+    width: 100%;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li { 
+    margin: 10px; 
+    margin-top: 20px;
+    color: black;
+    font-family: "Crimson Text";
+}
+
+header h3{
+    margin: 25px 20px;
+    font-size: 25px;
+    font-family: "Parisienne";
+}
+
+header a {color: black;}
+
+a{text-decoration: none; color: rgb(129, 59, 81);}
+
+#Home{
+    background-color: rgb(255, 230, 230);
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    font-size: 10px;
+}
+
+#Home h4{
+    font-family: "Parisienne";
+    font-size: 35px;
+    font-style: italic;
+}
+
+#explore{
+    background-color: rgb(254, 246, 236);
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    font-size: 10px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#explore h4{
+    font-family: "Parisienne";
+    font-size: 25px;
+    font-style: italic;
+}
+
+.story{
+    background-color: rgb(255, 230, 230);
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: "Roboto";
+    font-size: 17px;
+}
+
+.story img{
+    height: 190px;
+    width: 120px;
+    border-radius: 5px;
+    margin: 30px 20px 30px 10px;
+}
+.story h3{
+    font-style: "Italiana";
+    font-size: 23px;
+}
+
+#AboutMe{ 
+    background-color: rgb(254, 246, 236);
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: "Roboto";
+    font-size: 17px;
+}
+
+#AboutMe img{
+    height: 190px;
+    width: 120px;
+    border-radius: 5px;
+    margin: 30px 20px 30px 10px;
+}
+
+#Menu{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(254, 246, 236);
+}
+
+.menu_element{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: "Crimson Text";
+    font-size:10px;
+}
+
+.socialmedia{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(254, 246, 236);
+    padding-top: 23px;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialmedia p{font-size: 19px; font-family: "Roboto";}
+
+#Spring img{
+    height: 200px;
+}
+
+#Spring{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(254, 246, 236);
+    font-family: "Roboto";
+}
+
+footer{
+    display: flex;
+    background-color: rgb(254, 246, 236);
+    font-family:"Roboto";
+    font-size: 18px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph{
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto";
+    font-size: 18px;
+    color: black;
+    background-color: rgb(254, 246, 236);
+    padding-bottom: 15px;
+}
+
+.Titles{
+    font-family: "Parisienne";
+    justify-content: center;
+    text-align: center;
+}
+
+.Titles h2{font-size: 40px;}
+
+.albumbook{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.albumbook img{height: 250px; padding-right: 20px;}
+
+.era{
+    color: black;
+    font-family: "Roboto";
+    font-size: 17px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.era h4{
+    font-family: "Italiana";
+    font-size: 23px;
+}
+
+.Sub{
+    font-size: 25px;
+    font-family: "Italiana";
+    text-align: center;
+}
+
+.book{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: "Roboto";
+    font-size: 17px;
+    padding-bottom: 30px;
+}
+
+.book img{
+    height: 300px;
+    border-radius: 5px;
+    margin: 40px 20px 30px 10px;
+}
+
+.book h3{ font-family: "Italiana"; margin: 0px 20px 0px 20px;}
+
+.book p {margin: 0px 20px 0px 20px; }
+
+.gilmore_image img{ height: 200px; margin: 20px;}
+
+.gilmore_image{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.col img{ height:200px;}
+.col p{ font-size: 17px; font-family: "Roboto";}
+
+.nails{
+    color: black;
+    font-family: "Roboto";
+    font-size: 17px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nails img{ 
+    height: 300px;
+    padding-right: 20px;
+}
+
+.nails h3{
+    font-family: "Italiana";
+    font-size: 23px;
+    text-align: center;
+}
+
+.oscars{
+    color: black;
+    font-family: "Roboto";
+    font-size: 17px;    
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.oscars h4 {font-family: "Italiana"; font-size: 23px;}
+
+.itgirl li{
+    color: black;
+    font-family: "Roboto";
+    font-size: 17px; 
+}
